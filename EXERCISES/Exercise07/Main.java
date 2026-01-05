@@ -7,7 +7,36 @@ public class Main {
     public static void main(String[] args) {
         int num;
 
+        //OTHER WAY
+
         Scanner in = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        num = in.nextInt();
+
+        String n = Integer.toString(num);
+
+        String nn = n + n;
+        String nnn = n + n + n;
+
+        System.out.print(n + " + " + nn + " + " + nnn);
+
+        int num2 = Integer.parseInt(nn);
+        int num3 = Integer.parseInt(nnn);
+
+        System.out.println(" = " + (num + num2 + num3));
+
+        in.close();
+
+
+
+
+
+
+
+
+
+        //FIRST TRY
+        /*Scanner in = new Scanner(System.in);
         
         System.out.print("Enter a number: ");
         num = in.nextInt();
@@ -16,13 +45,10 @@ public class Main {
 
         StringBuilder sb1 = new StringBuilder();
         sb1.append(n).append(n);
-        //String n2 = sb1.toString();
 
         StringBuilder sb2 = new StringBuilder();
         sb2.append(n).append(n).append(n);
-        //String n3 = sb2.toString();
-
-
+        
         System.out.print(n + " + " + sb1 + " + " + sb2);
 
         int num2 = Integer.parseInt(sb1.toString());
@@ -30,6 +56,11 @@ public class Main {
         
         System.out.println(" = " + (num + num2 + num3));
 
-        in.close();
+        in.close();*/
+
+        
+
+        
+
     }
 }
