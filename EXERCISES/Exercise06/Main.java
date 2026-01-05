@@ -26,12 +26,10 @@ public class Main {
             temp = chars[i];
 
             if (Character.isLetter(temp)) {
-                letters[l++] = temp;
-               
+                letters[l++] = temp;  
             }
             else if (Character.isDigit(temp)) {
                 nums[n++] = temp;
-            
             }
             else if (Character.isWhitespace(temp)) {
                 spaces[s++] = temp;
@@ -42,13 +40,10 @@ public class Main {
             }
         }
 
-        
-
         System.out.println("Letters:" + "( " + new String(letters, 0, l) + " )" + " = " + l);
         System.out.println("Numbers:" + "( " + new String(nums, 0, n) + " )" + " = " + n);
         System.out.println("Spaces: " + "( " + new String(spaces, 0, s) + " )" + " = " + s);
         System.out.println("Others: " + "( " + new String(others, 0, o) + " )" + " = " + o);
-
 
         in.close();
 
