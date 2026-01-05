@@ -12,6 +12,7 @@ public class Main {
         word = in.nextLine();
 
         //Reverse using array
+        
         /*char[] chars = word.toCharArray();
 
         int i = chars.length -1;
