@@ -28,13 +28,6 @@ public class Main {
         in.close();
 
 
-
-
-
-
-
-
-
         //FIRST TRY
         /*Scanner in = new Scanner(System.in);
         
@@ -57,10 +50,6 @@ public class Main {
         System.out.println(" = " + (num + num2 + num3));
 
         in.close();*/
-
-        
-
-        
 
     }
 }
