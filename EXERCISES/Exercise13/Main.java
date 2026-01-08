@@ -13,7 +13,7 @@ public class Main {
         String sentence = in.nextLine();
 
 
-
+        //👨🏻 print the result sabi ng baby ko (jc14-ai)
         System.out.println(main.penultimate(sentence));
 
         in.close();
