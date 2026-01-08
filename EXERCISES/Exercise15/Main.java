@@ -27,14 +27,10 @@ public class Main {
             
             if (Character.isLetter(sentence.charAt(i))) {
                 sb1.append(sentence.charAt(i));
-            }
-            
+            }    
         } 
-
         return sb1.toString();
-    
     }
-
 
     public static void main(String[] args) {
         Main obj1 = new Main();
@@ -46,8 +42,6 @@ public class Main {
         System.out.println(obj1.capWord(sentence));
 
         in.close();
-
-
 
     }
     
