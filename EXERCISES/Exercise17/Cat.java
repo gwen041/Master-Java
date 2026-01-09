@@ -34,8 +34,3 @@ public class Cat {
         return true;
     }
 }
-
-    // Write a Java program where the "Cat" class includes a method to set a cat's breed.
-    // Write a Java program where the "Cat" class supports a method to determine if a cat is a kitten (age < 1 year).
-    // Write a Java program where the "Cat" class allows setting and getting the cat’s weight.
-    // Write a Java program where the "Cat" class includes a method to compare the ages of two cats.

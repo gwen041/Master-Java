@@ -26,5 +26,6 @@ public class Main {
         System.out.println("The age of the cat is " + cat1.getAge());
         System.out.println("The breed of the cat is " + cat1.getBreed());
         System.out.println("The cat is a kitten: " + cat1.ageChecker());
+
     }   
 }
