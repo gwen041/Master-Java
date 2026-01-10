@@ -1,6 +1,5 @@
 package EXERCISES.Exercise20;
 
-
 public class Main {
     String str, ending;
 
