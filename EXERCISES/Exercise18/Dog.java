@@ -22,7 +22,5 @@ public class Dog {
         else {
             System.out.println("The two dogs have the same age");
         }
-
-    }
-    
+    }    
 }
