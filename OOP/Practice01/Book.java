@@ -38,18 +38,5 @@ public class Book {
         } else {
             System.out.println("\n".repeat(2) + "The three books have the same price");
         }
-
-    }
-
-
-
-    
+    }   
 }
-
-
-    // Write a Java program to create a class called "Book" with instance variables title, author, and price. 
-    // Implement a default constructor and two parameterized constructors:
-
-    // One constructor takes title and author as parameters.
-    // The other constructor takes title, author, and price as parameters.
-    // Print the values of the variables for each constructor.
