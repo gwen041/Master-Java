@@ -21,16 +21,10 @@ public class Main {
             System.out.print("Enter number " + (i+1) + ": ");
             nums[i] = in.nextInt();
         }
-
-
+        
         main.compareNums(nums);
 
         in.close();
-
-
-
-
-
     }
     
 }
