@@ -1,23 +1,36 @@
 package EXERCISES.Exercise22;
 
+import java.util.Scanner;
+
 public class Main {
 
     public int largestNum(int[] nums) {
         int largestNum = 0;
         
-        for (int i = 0; i < nums.length -1; i++) {
+        for (int i = 0; i < nums.length; i++) {
             if (nums[i] > largestNum) {
                 largestNum = nums[i];   
             } 
         }
-
         return largestNum;
     }
     public static void main(String[] args) {
-        Main main = new Main();
-        int[] nums = {12, 3, 234, 24, 5};
+        Scanner in = new Scanner(System.in);
 
-        System.out.println(main.largestNum(nums));
-    }
-    
+        Main main = new Main();
+        
+        System.out.print("How many numbers you want to input?: ");
+        int length = in.nextInt();
+
+        int[] nums = new int[length];
+
+        for (int i = 0; i < nums.length; i++) {
+            System.out.print("Enter number " + (i + 1) + ": ");
+            nums[i] = in.nextInt();
+        }
+
+        in.close();
+
+        System.out.println("The largest number is: " + main.largestNum(nums));
+    }  
 }
