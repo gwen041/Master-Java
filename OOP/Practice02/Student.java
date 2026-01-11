@@ -32,10 +32,13 @@ public class Student {
         else {
             System.out.println("Both students have a " + this.grade + " grade");
         }
+    }  
 
+    public void gradeEval() {
+        if (grade >= 80) {
+            System.out.println(studentName + " (" + grade + ") - Passed!");
+        } else {
+            System.out.println(studentName  + " (" + grade + ") - Failed!");
+        }
     }
-    
 }
-
-    // Write a Java program where the "Student" class supports a method to determine if the student passed based on grades.
-    // Write a Java program where the "Student" class includes a method to compare two students' GPAs.

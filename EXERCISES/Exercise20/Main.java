@@ -12,7 +12,7 @@ public class Main {
             return str.endsWith(ending);
         }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) { 
         
         Main string1 = new Main("ironman", "an");
         Main string2 = new Main("daredevil", "d");
