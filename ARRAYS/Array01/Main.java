@@ -1,4 +1,4 @@
-package EXERCISES.Exercise23;
+package ARRAYS.Array01;
 
 public class Main {
     public static void main(String[] args) {
