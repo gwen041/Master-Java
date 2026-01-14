@@ -42,5 +42,4 @@ public class Main {
         main.searchNum(nums,findNum);
     }
 }
-
 // Write a Java program to test if an array contains a specific value
