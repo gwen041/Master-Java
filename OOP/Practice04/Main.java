@@ -2,8 +2,6 @@ package OOP.Practice04;
 
 public class Main {
     public static void main(String[] args) {
-        
-        
 
         try {
             Account acc1 = new Account("1234", -80);
@@ -24,5 +22,4 @@ public class Main {
             System.err.println("Account Number 2 (Error): " + e.getMessage());
         }
     }
-    
 }
