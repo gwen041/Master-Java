@@ -9,8 +9,6 @@ public class Main {
         cat.makeSound();
 
         System.out.println(cat.name);
-
-
     }
-    
+   
 }
