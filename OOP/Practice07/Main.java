@@ -6,6 +6,5 @@ public class Main {
         Computer.Processor proc = comp.new Processor();
 
         proc.printDetails();
-    }
-    
+    }   
 }
